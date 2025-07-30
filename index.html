@@ -10,12 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h2 class="">Lado A</h2>
-            <h2>Labo B</h2>
-            
-        </div>
-    </header>
+    <div class="flex gap-1">
+        <a href="#" class="btn btn-sm">Label</a>
+        <span href="#" class="btn btn-md">Label</span>
+        <a href="#" class="btn btn-lg">Label</a>
+    </div>
+
+    <div class="flex gap-1">
+        <a aria-label="Label" href="#" class="btn btn-sm"></a>
+        <span aria-label="Label" href="#" class="btn btn-md"></span>
+        <button href="#" aria-label="Label" class="btn btn-lg"></button>
+    </div>
 </body>
 </html>
