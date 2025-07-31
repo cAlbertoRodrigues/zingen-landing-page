@@ -41,7 +41,7 @@
 
 html {
     font-family: var(--ff-sans);
-    font-weight: var(--ff-base);
+    font-weight: var(--fw-base);
     font-size: var(--fs-base);
     line-height: 1.6;
     color: var(--text-color-primary);
@@ -82,7 +82,7 @@ a:hover {
         var(--brand-color-primary) 100%
     );
 
-    -webkit-backgroud-clip: text;
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
